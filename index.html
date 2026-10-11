@@ -7,16 +7,23 @@
     <title>Giới Thiệu Bản Thân</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="hero">
+        <nav class="hero-nav">
             <a href="#gioi_thieu">Giới thiệu</a>
             <a href="#lien_he">Lên hệ</a>
             <a href="#lich_hoc">Lịch học</a>
+            <a href="#du_an">Dự án</a>
         </nav>
+        <div class="hero-content">
+            <div class="badge-bounce">
+                <span class="bounce-icon">👋</span>Hello
+            </div>
+        </div>
     </header>
     <main>
         <section id="gioi_thieu" class="card">
-            <h1>Đinh Hoàng Việt</h1>
+            <h2>Giới thiệu bản thân</h2>
+            <h3>Họ tên: Đinh Hoàng Việt</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum iure distinctio, 
                 facilis consequatur excepturi reprehenderit repellendus cupiditate quo dicta, 
                 laudantium eligendi provident. Quaerat voluptatibus deserunt voluptate veritatis dolorem ullam odio.
@@ -25,14 +32,14 @@
                 Sit tenetur non perferendis voluptas ducimus. 
                 Commodi nihil eius, saepe ipsam aperiam laborum recusandae odio dolor autem aut.
             </p>
-            <h2>Sở thích</h2>
+            <h3>Sở thích</h3>
             <ul>
                 <li>Nghe Nhạc</li>
                 <li>Xem Phim</li>
                 <li>Chơi Game</li>
             </ul>
             <img src="a1.jpg" alt="Đây là ảnh">
-            <a href="https://github.com/Hoangviet04">GitHub</a>
+            <a href="https://github.com/Hoangviet04">GitHub Profile</a>
         </section>
         <section id="lien_he" class="card">
             <form id="form_lienhe">
@@ -60,6 +67,11 @@
                         </td>
                         <td>
                             <textarea name="message_input" id="message_input"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit">Gửi</button>
                         </td>
                     </tr>
                 </table>
@@ -90,6 +102,21 @@
                     </tr>
                 </tbody>
             </table>
+        </section>
+        <section id="du-an" class="card">
+            <h2>Dự án của tôi</h2>
+            <div id="grid-du-an">
+                <article class="project-card">
+                    <h3>Website quản lý nhân sự</h3>
+                    <p>Website quản lý nhân sự đơn giản</p>
+                    <a href="https://github.com/Hoangviet04/HR_Manager.git">URL dự án</a>
+                </article>
+                <article class="project-card">
+                    <h3>Ứng dụng học tiếng Anh</h3>
+                    <p>Ứng dụng học tiêng Anh đơn giản</p>
+                    <a href="https://github.com/Hoangviet04/2025_LTTBDD_N04_Nhom_ThaoViet.git">URL dự án</a>
+                </article>
+            </div>
         </section>
     </main>
     <footer>
